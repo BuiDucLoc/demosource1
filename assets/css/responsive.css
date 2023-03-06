@@ -1,0 +1,78 @@
+/* Responsive */
+@media(max-width:1300px){
+	.wrap-content { margin: 0px 15px; }
+}
+@media(max-width:1001px){
+    .header-bottom{display: none;}
+	.menu{display:none;}
+	.menu-res{display:block;}
+	.btn-frame{display: none;}
+	#messages-facebook{display: none;}
+	.grid-page{grid-template-columns: repeat(3, 1fr);}
+}
+@media(max-width:850px){
+	.gioithieu_left{width: 100%;margin-bottom: 30px;}
+	.gioithieu_left1{margin-right:0px;}
+	.gioithieu_right{width: 100%;}
+	.footer-news:nth-child(1){width: 49%;margin-bottom:30px;}
+	.footer-news:nth-child(2){width: 49%;margin-bottom:30px;}
+	.footer-news:nth-child(3){width: 49%;margin-bottom:30px;}
+	.footer-news:nth-child(4){width: 49%;}
+
+}
+@media(max-width:769px){
+	.camnhanhachhang_index{padding: 40px 0px;}
+	.album_anh{padding: 30px 0px;}
+	.danhmuc_vi{font-size: 18px;}
+	.gioithieu_left1{padding: 30px 10px;}
+	.tieuchi{padding: 30px 0px;}
+	.header_right{display: none;}
+	.sologan{width: 100%;padding: 10px 0px;}
+	.contact-text{margin-bottom: 30px;}
+	.gird_duan{grid-template-columns: repeat(2, 1fr);grid-gap: 20px 20px;}
+	.footer-copyright,.footer-statistic{text-align: center;}
+	.footer_icon li{padding:5px 0px;}
+	.footer-news:nth-child(1){width: 100%;}
+	.footer-news:nth-child(2){width: 100%;}
+	.footer-news:nth-child(3){width: 100%;}
+	.footer-news:nth-child(4){width: 100%;}
+	.doitac_left{padding: 42px 0px;}
+	.doitac{font-size: 9px;}
+	.tintuc_index{width: 100%;margin-bottom: 20px;}
+	.video_index{width: 100%;}
+	.tintuc_video{padding: 30px 0px;}
+	.hinhanh_baogia{width: 100%;margin-bottom: 20px;}
+	.btn1{margin-top: 20px;}
+	.form_lienhe{width: 100%;}
+	.name-product,.price-product{font-size: 13px;}
+	.grid-page{grid-template-columns: repeat(2, 1fr);grid-gap: 20px 20px;}
+	.dm1 li a{font-size: 13px;padding: 5.5px 18px;}
+	.sanpham_chinh,.mauthietke_dep{padding: 30px 0px;}
+	.gioithieu,.lienhe_baogia{padding: 30px 0px;}
+	.keyframes_img{max-width:350px;}
+	
+	
+}
+@media(max-width:440px){
+	.danhmuc_sanpham li a{font-size: 13px;padding: 5px 15px;margin-bottom: 5px;}
+	.box_ab1:nth-child(1) { grid-column: 1 / 2; grid-row: 1 / 2}
+	.box_ab1:nth-child(2) { grid-column: 1 / 2; grid-row: 2 / 3;}
+	.box_ab1:nth-child(3) { grid-column: 1 / 2; grid-row: 3 / 5;}
+	.box_ab1:nth-child(4) { grid-column: 1 / 2; grid-row: 5 / 6;}
+	.box_ab1:nth-child(5) { grid-column: 1 / 2; grid-row: 6 / 7;}
+	.qc_sl1 {display: grid;grid-template-columns: repeat(1, 1fr);grid-gap:10px;}
+	.title-main span{font-size: 30px;}
+	.gird_duan{grid-gap: 10px 10px;}
+	.grid-page{grid-gap: 10px 10px}
+	.dm1 li a{padding: 5.5px 14px;}
+	.gioithieu_vi{font-size: 34px;}
+	.keyframes_img{max-width:300px;}
+	.news-image{margin-bottom:1rem;}
+	.intro-news{width: 100%;margin-bottom: 30px;}
+	.intro-news:last-child{margin-bottom: 0px;}
+}
+@media(max-width:369px){
+	.cart-pro-detail a{width:100%;}
+	.cart-pro-detail a:first-child{margin-right:0px;margin-bottom:0.5rem;}
+	.cart-pro-detail a i{display:none;}
+}
